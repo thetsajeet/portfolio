@@ -8,9 +8,13 @@ export const DATA = {
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
-    "Data scientist by day, full stack developer by night. Always exploring cool projects and coding adventures!",
-  summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "A data scientist by day, full stack developer by night. Always on the hunt for cool projects, coding adventures with a cup of coffee!",
+  summary: `TL;DR
+  Seeker, Questioner, Doer.
+  As a passionate software developer with a keen interest in the crossroads of technology, finance, and startups, I’m on a mission to drive innovation and efficiency at Citi. It's not just about slinging code in any old framework—after all, anyone (or anything) can do that! It’s about crafting clean, maintainable code within solid architectures, documenting the process, and building systems that serve humanity.
+  With a strong foundation in programming languages and frameworks, I thrive in fast-paced environments, tackling complex challenges and building scalable solutions. My dedication to continuous learning keeps me at the cutting edge of emerging technologies, ensuring I deliver meaningful impact.
+  Outside of coding, I have a deep curiosity for the entrepreneurial world and finance. Whether it’s tracking market trends, exploring investment opportunities, or brainstorming the next big idea, I’m always tuned in to the pulse of the startup ecosystem.
+  `,
   avatarUrl: "/me.jpg",
   skills: [
     "Angular",
@@ -20,6 +24,7 @@ export const DATA = {
     "React",
     "C++",
     "Python",
+    "Data Science",
     "Machine Learning",
     "AI",
     "Javascript",
@@ -66,19 +71,19 @@ export const DATA = {
       start: "Aug 2024",
       end: "Present",
       description:
-        "TODO:",
+        "Building ML models to enable EComm Surveillance using Python.",
     },
     {
       company: "Citi",
       badges: [],
       href: "https://www.citigroup.com/global",
       location: "Pune",
-      title: "UI Developer",
+      title: "Fullstack developer",
       logoUrl: "/citi.png",
       start: "July 2023",
       end: "July 2024",
       description:
-        "TODO:",
+        "Developed an ecosystem around policies. In the first 6 months, built a Policy B&E tool that enables users to raise breaches, waivers and dispensations in policies. Received a Bronze Award from the senior leadership team. In the next 6 months, built a smart policy search that enables users to search over 1000s of policies along with advanced filtering, pagination and custom views for grouping different policies together.",
     },
     {
       company: "Finllect",
@@ -90,7 +95,7 @@ export const DATA = {
       start: "Dec 2022",
       end: "March 2023",
       description:
-      "TODO:"
+      "Implemented 5 microservices using NodeJS which revolved around building REST APIs, bots, communication workflows, merchant onboarding etc."
     },
     {
       company: "Citi",
@@ -102,7 +107,7 @@ export const DATA = {
       start: "May 2022",
       end: "July 2022",
       description:
-        "TODO:",
+        "Built a minimalist dashboard for Oracle-hosted databases in Angular. Implemented a full stack application in MERN and deployed it using CI/CD.",
     },
   ],
   education: [
