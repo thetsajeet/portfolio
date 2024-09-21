@@ -43,12 +43,9 @@ export default function Page() {
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
-            <BlurFade
-              key={work.company}
-              delay={BLUR_FADE_DELAY * 6 + id * 0.05}
-            >
+            <BlurFade key={id} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
               <ResumeCard
-                key={work.company}
+                key={id}
                 logoUrl={work.logoUrl}
                 altText={work.company}
                 title={work.company}
