@@ -4,11 +4,11 @@ import { HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Ajeet",
   initials: "T S",
-  url: "https://ajeet.io", // TODO: to update after deployment
+  url: "https://ajeet-portfolio.vercel.app/", // TODO: to update after deployment
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
-    "A data scientist by day, full stack developer by night. Always on the hunt for cool projects, coding adventures with a cup of coffee!",
+    "A full stack developer on the hunt for cool projects and coding adventures.",
   summary: `TL;DR
   Seeker, Questioner, Doer.
   As a passionate software developer with a keen interest in the crossroads of technology, finance, and startups, I’m on a mission to drive innovation and efficiency at Citi. It's not just about slinging code in any old framework—after all, anyone (or anything) can do that! It’s about crafting clean, maintainable code within solid architectures, documenting the process, and building systems that serve humanity.
@@ -19,13 +19,14 @@ export const DATA = {
   skills: [
     "Angular",
     "Typescipt",
-    "Nodejs",
+    "Node.js",
+    "Express.js",
     "MongoDB",
     "React",
+    "Next.js",
     "C++",
     "Python",
     "Data Science",
-    "Machine Learning",
     "AI",
     "Javascript",
     "Git",
@@ -38,7 +39,7 @@ export const DATA = {
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "tsajeet.cpp@gmail.com",
+    email: "ajeet.tumuluru@gmail.com",
     social: {
       GitHub: {
         name: "GitHub",
@@ -71,7 +72,8 @@ export const DATA = {
       start: "Aug 2024",
       end: "Present",
       description:
-        "Building ML models to enable EComm Surveillance using Python.",
+        "Analysis on mortgage underwriting in Citi to detect and raise flags if Citi's traders are engaging in unethical or unapproved communication means.",
+      technologies: ["Data Science", "ML", "Python", "Pyspark", "Snorkel AI"],
     },
     {
       company: "Citi",
@@ -83,7 +85,15 @@ export const DATA = {
       start: "July 2023",
       end: "July 2024",
       description:
-        "Developed an ecosystem around policies. In the first 6 months, built a Policy B&E tool that enables users to raise breaches, waivers and dispensations in policies. Received a Bronze Award from the senior leadership team. In the next 6 months, built a smart policy search that enables users to search over 1000s of policies along with advanced filtering, pagination and custom views for grouping different policies together.",
+        "Built projects from scratch under the Policies Ecosystem. In the first 6 months, built a Policy B&E tool that enables users to raise breaches, waivers and dispensations in policies. Received a Bronze Award from the senior leadership team. In the next 6 months, built a smart policy search that enables users to search over 1000s of policies along with advanced filtering, pagination and custom views for grouping different policies together.",
+      technologies: [
+        "Angular",
+        "Typescript",
+        "Citi Design System",
+        "NodeJS",
+        "MongoDB",
+        "Agile",
+      ],
     },
     {
       company: "Finllect",
@@ -95,7 +105,8 @@ export const DATA = {
       start: "Dec 2022",
       end: "March 2023",
       description:
-      "Implemented 5 microservices using NodeJS which revolved around building REST APIs, bots, communication workflows, merchant onboarding etc."
+        "Implemented 5 microservices using Express.js around building REST APIs, bots, communication workflows, merchant onboarding etc.",
+      technologies: ["Node.js", "MongoDB", "CI/CD", "Express.js"],
     },
     {
       company: "Citi",
@@ -107,7 +118,17 @@ export const DATA = {
       start: "May 2022",
       end: "July 2022",
       description:
-        "Built a minimalist dashboard for Oracle-hosted databases in Angular. Implemented a full stack application in MERN and deployed it using CI/CD.",
+        "Built a minimalist dashboard for Oracle-hosted databases in Angular. Led and Implemented a MERN stack application with a team of 6 and deployed it using CI/CD.",
+      technologies: [
+        "Angular",
+        "Typescript",
+        "React",
+        "Express.js",
+        "MongoDB",
+        "AWS",
+        "CI/CD",
+        "RedHat Openshift",
+      ],
     },
   ],
   education: [
@@ -122,126 +143,117 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Atlas.ai",
+      href: "https://atlas-ui-mocha.vercel.app/",
+      dates: "August 2024 - Present",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "An AI itinerary planner to plan all your trips. Drop in a prompt and let AI prepare an amazing trip with the best places to visit.",
       technologies: [
-        "Next.js",
+        "Angular",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Gemini AI",
+        "Prompt Engineering",
+        "PrimeNG",
+        "PrimeFlex",
+        "Vercel",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
+          href: "https://atlas-ui-mocha.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          type: "Github",
+          href: "https://github.com/Ts-A/atlas.ai",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/atlas.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Docc",
+      href: "https://docc-two.vercel.app/",
+      dates: "September 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Docc allows users to upload PDFs and ask AI questions on the PDF.",
       technologies: [
         "Next.js",
         "Typescript",
         "PostgreSQL",
         "Prisma",
         "TailwindCSS",
+        "Stripe",
         "Shadcn UI",
         "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "tRPC",
+        "AI",
+        "Vercel",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://docc-two.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          type: "Github",
+          href: "https://github.com/Ts-A/docc",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/docc.png",
+      // video: "https://github.com/Ts-A/docc",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "ngx-placeholder",
+      href: "https://www.npmjs.com/package/ngx-placeholder",
+      dates: "September 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
+        "NPM package to use customisable placeholders in angular applications.",
+      technologies: ["Angular", "NPM"],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://www.npmjs.com/package/ngx-placeholder",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Github",
+          href: "https://github.com/Ts-A/ngx-placeholder",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/ngx-placeholder.png",
+      // video: "https://github.com/Ts-A/docc",
+    },
+    {
+      title: "Prodigy",
+      href: "https://prodigy-sigma.vercel.app/",
+      dates: "September 2023",
+      active: true,
+      description:
+        "NIT Trichy Production Engineering Department's 2023 symposium site.",
+      technologies: ["React.js", "TailwindCSS", "MagicUI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://prodigy-sigma.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/Ts-A/Prodigy-Webops",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/prodigy.png",
+      // video: "https://github.com/Ts-A/docc",
     },
   ],
 } as const;
