@@ -101,7 +101,15 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description}
+              {description
+                .split(".")
+                .filter(
+                  (_, index: number, finalArray: string[]) =>
+                    index !== finalArray.length - 1
+                )
+                .map((descr: string, index: number) => (
+                  <li key={index}>{descr}</li>
+                ))}
             </motion.div>
           )}
         </div>

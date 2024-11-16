@@ -7,8 +7,7 @@ export const DATA = {
   url: "https://ajeet-portfolio.vercel.app/", // TODO: to update after deployment
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/pune",
-  description:
-    "A full stack developer on the hunt for cool projects and coding adventures.",
+  description: "Passionate Software Engineer with a deep love for technology.",
   summary: `TL;DR
   Seeker, Questioner, Doer.
   As a passionate software developer with a keen interest in the crossroads of technology, finance, and startups, I’m on a mission to drive innovation and efficiency at Citi. It's not just about slinging code in any old framework—after all, anyone (or anything) can do that! It’s about crafting clean, maintainable code within solid architectures, documenting the process, and building systems that serve humanity.
@@ -17,21 +16,23 @@ export const DATA = {
   `,
   avatarUrl: "/me.jpg",
   skills: [
-    "Angular",
-    "Typescipt",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
+    "Next",
     "React",
-    "Next.js",
+    "Angular",
+    "Node",
+    "Express",
+    "MongoDB",
+    "SQL",
+    "Prisma",
     "C++",
-    "Python",
-    "Data Science",
-    "AI",
+    "Typescipt",
     "Javascript",
+    "Python",
+    "AI",
+    "Pyspark",
+    "Langchain",
     "Git",
     "Linux",
-    "Docker",
     "CI/CD",
   ],
   navbar: [
@@ -64,49 +65,25 @@ export const DATA = {
   work: [
     {
       company: "Citi",
-      href: "https://www.citigroup.com/global",
-      badges: [],
-      location: "Pune",
-      title: "Data Scientist",
-      logoUrl: "/citi.png",
-      start: "Aug 2024",
-      end: "Present",
-      description:
-        "Analysis on mortgage underwriting in Citi to detect and raise flags if Citi's traders are engaging in unethical or unapproved communication means.",
-      technologies: ["Data Science", "ML", "Python", "Pyspark", "Snorkel AI"],
-    },
-    {
-      company: "Citi",
       badges: [],
       href: "https://www.citigroup.com/global",
       location: "Pune",
-      title: "Fullstack developer",
+      title: "Technology Analyst",
       logoUrl: "/citi.png",
       start: "July 2023",
-      end: "July 2024",
+      end: "Present",
       description:
-        "Built projects from scratch under the Policies Ecosystem. In the first 6 months, built a Policy B&E tool that enables users to raise breaches, waivers and dispensations in policies. Received a Bronze Award from the senior leadership team. In the next 6 months, built a smart policy search that enables users to search over 1000s of policies along with advanced filtering, pagination and custom views for grouping different policies together.",
+        "Developed UI for Policies Portal from scratch using Angular, enabling 10000+ Citi Employees to manage policy breaches, waivers and dispensations.\
+        Engineered UI for Smart Policy Search from scratch using Angular allowing any Citi Employee to search with filters, create custom groups, add to favourites, drag-and-drop 1000+ policies.\
+        Prototyped backend using Node in MVC architecture.\
+        Received a bronze award from Senior Leadership Team for exceptional ownership and timely delivery.",
       technologies: [
         "Angular",
         "Typescript",
+        "Node",
         "Citi Design System",
-        "NodeJS",
         "MongoDB",
-        "Agile",
       ],
-    },
-    {
-      company: "Finllect",
-      href: "https://finllect.ae/",
-      badges: [],
-      location: "Dubai, UAE",
-      title: "Junior Backend Devloper",
-      logoUrl: "/finllect.svg",
-      start: "Dec 2022",
-      end: "March 2023",
-      description:
-        "Implemented 5 microservices using Express.js around building REST APIs, bots, communication workflows, merchant onboarding etc.",
-      technologies: ["Node.js", "MongoDB", "CI/CD", "Express.js"],
     },
     {
       company: "Citi",
@@ -118,17 +95,41 @@ export const DATA = {
       start: "May 2022",
       end: "July 2022",
       description:
-        "Built a minimalist dashboard for Oracle-hosted databases in Angular. Led and Implemented a MERN stack application with a team of 6 and deployed it using CI/CD.",
-      technologies: [
-        "Angular",
-        "Typescript",
-        "React",
-        "Express.js",
-        "MongoDB",
-        "AWS",
-        "CI/CD",
-        "RedHat Openshift",
-      ],
+        "Built a minimalist dashboard using Angular for managing 100+ Oracle-hosted databases.\
+        Boosted data clarity and insights by 40% through seamless integration of interactive charts and data tables.\
+        Received PPO for exceeding expectations as an intern.",
+      technologies: ["Angular", "Citi Design System", "Typescript", "CI/CD"],
+    },
+    {
+      company: "Finllect",
+      href: "https://finllect.ae/",
+      badges: [],
+      location: "Dubai, UAE",
+      title: "Junior Backend Devloper",
+      logoUrl: "/finllect.svg",
+      start: "Dec 2021",
+      end: "March 2022",
+      description:
+        "Implemented Finllect Api Gateway as a single point of entry for all incoming backend requests.\
+        Designed and developed REST APIs for User, Transaction, Coupon modules.\
+        Developed asynchronous communication services enabling decoupled and non-blocking interaction between systems improving scalability.\
+        ",
+      technologies: ["Node", "Express.js", "MongoDB", "CI/CD"],
+    },
+    {
+      company: "Finllect",
+      href: "https://finllect.ae/",
+      badges: [],
+      location: "Dubai, UAE",
+      title: "Backend Devloper Intern",
+      logoUrl: "/finllect.svg",
+      start: "Dec 2020",
+      end: "March 2021",
+      description:
+        "Collaborated directly with the CTO building REST APIs using Express and MongoDB.\
+        Proposed and implemented SlackBot for real-time activity notifications which was widely adopted and appreciated.\
+        ",
+      technologies: ["Node", "Express.js", "MongoDB", "CI/CD"],
     },
   ],
   education: [
@@ -143,10 +144,80 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Form Factory",
+      href: "https://form-factory-rosy.vercel.app/",
+      dates: "October 2024 - Present",
+      active: true,
+      description:
+        "Create customizable, dynamic forms with an intuitive drag-and-drop interface, making form-building seamless and shareable.",
+      technologies: [
+        "Next",
+        "React",
+        "Typescript",
+        "Tailwind CSS",
+        "Zustand",
+        "React Form Hook",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://form-factory-rosy.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/Ts-A/form-factory",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/form-factory.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "Market",
+      href: "https://github.com/Ts-A/Market",
+      dates: "October 2024 - Present",
+      active: true,
+      description:
+        "Ecommerce application built using microservices architecture with modules: User, Cart, Product Catalog. Supports gRPC for inter-service communication.",
+      technologies: ["Node", "Express", "Redis", "gRPC", "Supabase", "Prisma"],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/Ts-A/Market",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/market.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "Agentic RAG System",
+      href: "https://github.com/Ts-A/smart-ai",
+      dates: "October 2024 - Present",
+      active: false,
+      description:
+        "Smart AI Agent that answers questions based on user-submitted PDFs and performs web searches to provide comprehensive, real-time information",
+      technologies: ["Python", "Langchain", "Langgraph"],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/Ts-A/smart-ai",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/smart-ai.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
       title: "Atlas.ai",
       href: "https://atlas-ui-mocha.vercel.app/",
       dates: "August 2024 - Present",
-      active: true,
+      active: false,
       description:
         "An AI itinerary planner to plan all your trips. Drop in a prompt and let AI prepare an amazing trip with the best places to visit.",
       technologies: [
@@ -173,41 +244,6 @@ export const DATA = {
       image: "/atlas.png",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Docc",
-      href: "https://docc-two.vercel.app/",
-      dates: "September 2024 - Present",
-      active: true,
-      description:
-        "Docc allows users to upload PDFs and ask AI questions on the PDF.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-        "tRPC",
-        "AI",
-        "Vercel",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://docc-two.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Github",
-          href: "https://github.com/Ts-A/docc",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/docc.png",
-      // video: "https://github.com/Ts-A/docc",
     },
     {
       title: "ngx-placeholder",
