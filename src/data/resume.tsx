@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { FileDownIcon, HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Ajeet",
@@ -54,11 +54,11 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      email: {
-        name: "Send Email",
-        url: "#",
-        icon: Icons.email,
-        navbar: false,
+      Resume: {
+        name: "Download Resume",
+        url: "/Ajeet_TS_Resume.pdf",
+        icon: Icons.resume,
+        navbar: true,
       },
     },
   },

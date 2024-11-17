@@ -45,6 +45,7 @@ export default function Navbar() {
                 <TooltipTrigger asChild>
                   <Link
                     href={social.url}
+                    download={social.name === "Download Resume"}
                     target="_blank"
                     rel="noopener"
                     className={cn(
