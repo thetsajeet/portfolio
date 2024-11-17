@@ -81,7 +81,7 @@ export const ResumeCard = ({
                   )}
                 />
               </h3>
-              <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+              <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right italic">
                 {period}
               </div>
             </div>
@@ -108,7 +108,9 @@ export const ResumeCard = ({
                     index !== finalArray.length - 1
                 )
                 .map((descr: string, index: number) => (
-                  <li key={index}>{descr}</li>
+                  <li key={index} className="list-none">
+                    ✔️ {descr}
+                  </li>
                 ))}
             </motion.div>
           )}

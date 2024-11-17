@@ -40,7 +40,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
+            <h2 className="text-xl font-bold">WORK EXPERIENCE 💼</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade key={id} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
@@ -62,7 +62,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold">Education</h2>
+            <h2 className="text-xl font-bold">EDUCATION 🎓</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -84,7 +84,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-xl font-bold">SKILLS 🥷</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
@@ -100,7 +100,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Check out my latest work
+                Check out my latest work 🌏
               </h2>
               <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 I&apos;ve worked on a variety of projects, from simple websites
@@ -138,14 +138,14 @@ export default function Page() {
                 Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
+                Get in Touch 📮
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just{" "}
                 <Link
                   target="_blank"
                   rel="noopener"
-                  href={DATA.contact.social.LinkedIn.url}
+                  href={"mailto:" + DATA.contact.email}
                   className="text-blue-500 hover:underline"
                 >
                   shoot me a dm
