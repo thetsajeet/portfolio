@@ -7,7 +7,8 @@ export const DATA = {
   url: "https://ajeet-portfolio.vercel.app/", // TODO: to update after deployment
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/pune",
-  description: "Passionate Software Engineer with a deep love for technology.",
+  description:
+    "Software Engineer empowering ideas through scalable and efficient code.",
   summary: `TL;DR
   Seeker, Questioner, Doer.
   As a passionate software developer with a keen interest in the crossroads of technology, finance, and startups, I’m on a mission to drive innovation and efficiency at Citi. It's not just about slinging code in any old framework—after all, anyone (or anything) can do that! It’s about crafting clean, maintainable code within solid architectures, documenting the process, and building systems that serve humanity.
