@@ -109,7 +109,7 @@ export const ResumeCard = ({
                 )
                 .map((descr: string, index: number) => (
                   <li key={index} className="list-none">
-                    ✔️ {descr}
+                    {descr}
                   </li>
                 ))}
             </motion.div>

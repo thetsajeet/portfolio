@@ -124,6 +124,7 @@ export default function Page() {
                   dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
+                  active={project.active}
                   // video={project.video}
                   links={project.links}
                 />

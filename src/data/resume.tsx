@@ -24,17 +24,20 @@ export const DATA = {
     "Express",
     "MongoDB",
     "SQL",
+    "FastAPI",
     "Prisma",
     "C++",
     "Typescipt",
     "Javascript",
     "Python",
+    "Bash",
     "AI",
     "Pyspark",
     "Langchain",
     "Git",
     "Linux",
     "CI/CD",
+    "AWS",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -74,10 +77,12 @@ export const DATA = {
       start: "July 2023",
       end: "Present",
       description:
-        "Developed UI for Policies Portal from scratch using Angular, enabling 10000+ Citi Employees to manage policy breaches, waivers and dispensations.\
-        Engineered UI for Smart Policy Search from scratch using Angular allowing any Citi Employee to search with filters, create custom groups, add to favourites, drag-and-drop 1000+ policies.\
-        Prototyped backend using Node in MVC architecture.\
-        Received a bronze award from Senior Leadership Team for exceptional ownership and timely delivery.",
+        "🖥️ Built the Policies Portal UI from the ground up using Angular, enabling 10,000+ Citi employees to manage policy breaches, waivers, and dispensations.\
+        ⚙️ Designed and developed reusable custom UI components, such as Single Item Transfer, reducing development time for new features by 80%.\
+        🔍 Spearheaded the Smart Policy Search UI using Angular, empowering Citi employees to search across 1,000+ policies with advanced filtering, sorting, and custom policy group features.\
+        🏗️ Implemented a modular architecture with lazy-loaded feature modules, improving bundle size and First Contentful Paint (FCP) by 25%.\
+        🏅 Secured a Gold award at the Citi India Hackathon 2024 for contributions in fintech open-source projects.\
+        🥉 Earned a Bronze award in 2023 from Senior Leadership Team for demonstrating exceptional ownership and ensuring timely project delivery.",
       technologies: [
         "Angular",
         "Typescript",
@@ -96,9 +101,9 @@ export const DATA = {
       start: "May 2022",
       end: "July 2022",
       description:
-        "Built a minimalist dashboard using Angular for managing 100+ Oracle-hosted databases.\
-        Boosted data clarity and insights by 40% through seamless integration of interactive charts and data tables.\
-        Received PPO for exceeding expectations as an intern.",
+        "🏗️ Shaped a minimalist Angular dashboard, streamlining the management of 100+ Oracle-hosted databases.\
+        📊 Enhanced data clarity and actionable insights by 40% through the integration of interactive charts and data tables.\
+        🏅 Secured a Pre-Placement Offer (PPO) by consistently exceeding expectations and delivering high-quality results during the internship.",
       technologies: ["Angular", "Citi Design System", "Typescript", "CI/CD"],
     },
     {
@@ -111,10 +116,9 @@ export const DATA = {
       start: "Dec 2021",
       end: "March 2022",
       description:
-        "Implemented Finllect Api Gateway as a single point of entry for all incoming backend requests.\
-        Designed and developed REST APIs for User, Transaction, Coupon modules.\
-        Developed asynchronous communication services enabling decoupled and non-blocking interaction between systems improving scalability.\
-        ",
+        "🔗 Implemented Finllect API Gateway as a single point of entry for all incoming backend requests.\
+        🔧 Designed and developed REST APIs for User, Transaction, and Coupon modules.\
+        🚀 Developed asynchronous communication services enabling decoupled and non-blocking interaction between systems, improving scalability.",
       technologies: ["Node", "Express.js", "MongoDB", "CI/CD"],
     },
     {
@@ -127,9 +131,8 @@ export const DATA = {
       start: "Dec 2020",
       end: "March 2021",
       description:
-        "Collaborated directly with the CTO building REST APIs using Express and MongoDB.\
-        Proposed and implemented SlackBot for real-time activity notifications which was widely adopted and appreciated.\
-        ",
+        "🤝 Collaborated directly with the CTO to build REST APIs using Express and MongoDB.\
+        💬 Proposed and implemented a SlackBot for real-time activity notifications, which was widely adopted and appreciated.",
       technologies: ["Node", "Express.js", "MongoDB", "CI/CD"],
     },
   ],
@@ -142,10 +145,9 @@ export const DATA = {
       start: "2019",
       end: "2023",
       description:
-        "Implemented Finllect Api Gateway as a single point of entry for all incoming backend requests.\
-        Designed and developed REST APIs for User, Transaction, Coupon modules.\
-        Developed asynchronous communication services enabling decoupled and non-blocking interaction between systems improving scalability.\
-        ",
+        "🎓 First Class with Distinction.\
+        ⚽ Professionally trained and played for the university football team NIT Trichy FC.\
+        💻 Built and maintained internal tools at Delta Force NIT Trichy as a full-stack developer.",
     },
   ],
   projects: [
@@ -221,7 +223,7 @@ export const DATA = {
     },
     {
       title: "Atlas.ai",
-      href: "https://atlas-ui-mocha.vercel.app/",
+      href: "",
       dates: "August 2024 - Present",
       active: false,
       description:
@@ -236,11 +238,11 @@ export const DATA = {
         "Vercel",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://atlas-ui-mocha.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://atlas-ui-mocha.vercel.app/",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
           type: "Github",
           href: "https://github.com/Ts-A/atlas.ai",
@@ -278,7 +280,7 @@ export const DATA = {
       title: "Prodigy",
       href: "https://prodigy-sigma.vercel.app/",
       dates: "September 2023",
-      active: true,
+      active: false,
       description:
         "NIT Trichy Production Engineering Department's 2023 symposium site.",
       technologies: ["React.js", "TailwindCSS", "MagicUI"],
