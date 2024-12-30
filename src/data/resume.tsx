@@ -1,10 +1,10 @@
 import { Icons } from "@/components/icons";
-import { FileDownIcon, HomeIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Ajeet",
   initials: "T S",
-  url: "https://ajeet-portfolio.vercel.app/", // TODO: to update after deployment
+  url: "https://tsajeet.vercel.app/", // TODO: to update after deployment
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
@@ -48,13 +48,13 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Ts-A",
+        url: "https://github.com/thetsajeet",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/ajeet-t-s/",
+        url: "https://www.linkedin.com/in/thetsajeet/",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -175,7 +175,7 @@ export const DATA = {
         },
         {
           type: "Github",
-          href: "https://github.com/Ts-A/form-factory",
+          href: "https://github.com/thetsajeet/form-factory",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -185,7 +185,7 @@ export const DATA = {
     },
     {
       title: "Market",
-      href: "https://github.com/Ts-A/Market",
+      href: "https://github.com/thetsajeet/Market",
       dates: "October 2024 - Present",
       active: true,
       description:
@@ -194,7 +194,7 @@ export const DATA = {
       links: [
         {
           type: "Github",
-          href: "https://github.com/Ts-A/Market",
+          href: "https://github.com/thetsajeet/Market",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -204,7 +204,7 @@ export const DATA = {
     },
     {
       title: "Agentic RAG System",
-      href: "https://github.com/Ts-A/smart-ai",
+      href: "https://github.com/thetsajeet/smart-ai",
       dates: "October 2024 - Present",
       active: false,
       description:
@@ -213,7 +213,7 @@ export const DATA = {
       links: [
         {
           type: "Github",
-          href: "https://github.com/Ts-A/smart-ai",
+          href: "https://github.com/thetsajeet/smart-ai",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -245,7 +245,7 @@ export const DATA = {
         // },
         {
           type: "Github",
-          href: "https://github.com/Ts-A/atlas.ai",
+          href: "https://github.com/thetsajeet/atlas.ai",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -269,12 +269,12 @@ export const DATA = {
         },
         {
           type: "Github",
-          href: "https://github.com/Ts-A/ngx-placeholder",
+          href: "https://github.com/thetsajeet/ngx-placeholder",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/ngx-placeholder.png",
-      // video: "https://github.com/Ts-A/docc",
+      // video: "https://github.com/thetsajeet/docc",
     },
     {
       title: "Prodigy",
@@ -292,12 +292,12 @@ export const DATA = {
         },
         {
           type: "Github",
-          href: "https://github.com/Ts-A/Prodigy-Webops",
+          href: "https://github.com/thetsajeet/Prodigy-Webops",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/prodigy.png",
-      // video: "https://github.com/Ts-A/docc",
+      // video: "https://github.com/thetsajeet/docc",
     },
   ],
 } as const;
