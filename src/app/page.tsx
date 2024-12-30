@@ -75,6 +75,8 @@ export default function Page() {
                 altText={education.school}
                 title={education.school}
                 subtitle={education.degree}
+                description={education.description}
+                href={education.href}
                 period={`${education.start} - ${education.end}`}
               />
             </BlurFade>
@@ -122,6 +124,7 @@ export default function Page() {
                   dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
+                  active={project.active}
                   // video={project.video}
                   links={project.links}
                 />
