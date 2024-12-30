@@ -141,6 +141,11 @@ export const DATA = {
       logoUrl: "/nitt.png",
       start: "2019",
       end: "2023",
+      description:
+        "Implemented Finllect Api Gateway as a single point of entry for all incoming backend requests.\
+        Designed and developed REST APIs for User, Transaction, Coupon modules.\
+        Developed asynchronous communication services enabling decoupled and non-blocking interaction between systems improving scalability.\
+        ",
     },
   ],
   projects: [

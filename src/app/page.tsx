@@ -75,6 +75,8 @@ export default function Page() {
                 altText={education.school}
                 title={education.school}
                 subtitle={education.degree}
+                description={education.description}
+                href={education.href}
                 period={`${education.start} - ${education.end}`}
               />
             </BlurFade>
