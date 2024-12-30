@@ -8,14 +8,14 @@ export const DATA = {
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
-    "Software Engineer empowering ideas through scalable and efficient code.",
+    "A Software Engineer empowering ideas through scalable and efficient code.",
   summary: `TL;DR
   Seeker, Questioner, Doer.
   As a passionate software developer with a keen interest in the crossroads of technology, finance, and startups, I’m on a mission to drive innovation and efficiency at Citi. It's not just about slinging code in any old framework—after all, anyone (or anything) can do that! It’s about crafting clean, maintainable code within solid architectures, documenting the process, and building systems that serve humanity.
   With a strong foundation in programming languages and frameworks, I thrive in fast-paced environments, tackling complex challenges and building scalable solutions. My dedication to continuous learning keeps me at the cutting edge of emerging technologies, ensuring I deliver meaningful impact.
   Outside of coding, I have a deep curiosity for the entrepreneurial world and finance. Whether it’s tracking market trends, exploring investment opportunities, or brainstorming the next big idea, I’m always tuned in to the pulse of the startup ecosystem.
   `,
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/image.png",
   skills: [
     "Next",
     "React",
