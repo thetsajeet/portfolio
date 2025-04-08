@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Ajeet",
@@ -22,6 +22,7 @@ export const DATA = {
     "Node",
     "Express",
     "MongoDB",
+    "Neo4j",
     "SQL",
     "FastAPI",
     "Prisma",
@@ -29,18 +30,20 @@ export const DATA = {
     "Typescipt",
     "Javascript",
     "Python",
+    "Go",
     "Bash",
     "AI",
     "Pyspark",
     "Langchain",
-    "Git",
+    "Langgraph",
     "Linux",
-    "CI/CD",
+    "Docker",
+    "Kubernetes",
     "AWS",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/blogs", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "ajeet.tumuluru@gmail.com",
@@ -53,7 +56,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/thetsajeet/",
+        url: "https://www.linkedin.com/in/thetsajeet",
         icon: Icons.linkedin,
         navbar: true,
       },
