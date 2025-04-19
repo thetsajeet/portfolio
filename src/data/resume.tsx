@@ -8,12 +8,7 @@ export const DATA = {
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description: "Thinker | Tinkerer | Technologist",
-  summary: `TL;DR
-  Seeker, Questioner, Doer.
-  As a passionate software developer with a keen interest in the crossroads of technology, finance, and startups, I’m on a mission to drive innovation and efficiency at Citi. It's not just about slinging code in any old framework—after all, anyone (or anything) can do that! It’s about crafting clean, maintainable code within solid architectures, documenting the process, and building systems that serve humanity.
-  With a strong foundation in programming languages and frameworks, I thrive in fast-paced environments, tackling complex challenges and building scalable solutions. My dedication to continuous learning keeps me at the cutting edge of emerging technologies, ensuring I deliver meaningful impact.
-  Outside of coding, I have a deep curiosity for the entrepreneurial world and finance. Whether it’s tracking market trends, exploring investment opportunities, or brainstorming the next big idea, I’m always tuned in to the pulse of the startup ecosystem.
-  `,
+  summary: `A software engineer who is always curious to learn and excited to code. I consider myself tech-agnostic and generalist.`,
   avatarUrl: "/profile-picture.jpeg",
   skills: [
     "Next",
@@ -192,6 +187,36 @@ export const DATA = {
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
+      title: "Rege.ai",
+      href: "https://regeai-eight.vercel.app/",
+      dates: "April 2025 - Present",
+      active: false,
+      description:
+        "Create customizable, dynamic forms with an intuitive drag-and-drop interface, making form-building seamless and shareable.",
+      technologies: [
+        "Next",
+        "React",
+        "Typescript",
+        "Tailwind CSS",
+        "FastAPI",
+        "MongoDB",
+        "Beanie",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://regeai-eight.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/thetsajeet/rege.ai",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/rege.ai.png",
+    },
+    {
       title: "Market",
       href: "https://github.com/thetsajeet/Market",
       dates: "October 2024 - Present",
@@ -209,6 +234,22 @@ export const DATA = {
       image: "/market.png",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+    {
+      title: "Web Crawler",
+      href: "https://github.com/thetsajeet/webcrawler",
+      dates: "Feb 2025 - March 2025",
+      active: true,
+      description: "A CLI web crawler written in GO.",
+      technologies: ["Go"],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/thetsajeet/webcrawler",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/web-crawler.png",
     },
     {
       title: "Agentic RAG System",

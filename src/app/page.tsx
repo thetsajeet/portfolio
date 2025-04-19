@@ -37,6 +37,9 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <section id="about" className="italic">
+        <BlurFade delay={BLUR_FADE_DELAY * 3}>{DATA.summary}</BlurFade>
+      </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
