@@ -60,6 +60,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
+      X: {
+        name: "X",
+        url: "https://x.com/itstheaj7",
+        icon: Icons.x,
+        navbar: true,
+      },
       Resume: {
         name: "Download Resume",
         url: "/Ajeet_TS_Resume.pdf",
