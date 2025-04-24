@@ -192,7 +192,7 @@ export const DATA = {
       dates: "April 2025 - Present",
       active: false,
       description:
-        "Create customizable, dynamic forms with an intuitive drag-and-drop interface, making form-building seamless and shareable.",
+        "Store career highlights in one place. Generate resume and CV for the next job / role based on job description from your career highlights.",
       technologies: [
         "Next",
         "React",
