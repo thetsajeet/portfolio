@@ -8,8 +8,9 @@ export const DATA = {
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description: "Thinker | Tinkerer | Technologist",
-  summary: `A software engineer who is always curious to learn and excited to code. I consider myself tech-agnostic and generalist.`,
-  avatarUrl: "/profile-picture.jpeg",
+  summary:
+    "Experienced Software Engineer at Citi, specializing in full-stack development. Passionate about crafting innovative solutions and driving technological advancements. Committed to impactful contributions.",
+  avatarUrl: "/Ajeet_TS_DP.png",
   skills: [
     "Next",
     "React",
