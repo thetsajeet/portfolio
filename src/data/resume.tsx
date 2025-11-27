@@ -2,9 +2,9 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Ajeet",
+  name: "T S Ajeet",
   initials: "T S",
-  url: "https://tsajeet.vercel.app/", // TODO: to update after deployment
+  url: "https://tsajeet.com/",
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description: "Thinker | Tinkerer | Technologist",
@@ -15,23 +15,18 @@ export const DATA = {
     "Next",
     "React",
     "Angular",
+    "Springboot",
     "Node",
     "Express",
     "MongoDB",
-    "Neo4j",
     "SQL",
-    "FastAPI",
-    "Prisma",
     "C++",
     "Typescipt",
     "Javascript",
     "Python",
+    "Java",
     "Go",
-    "Bash",
-    "AI",
-    "Pyspark",
-    "Langchain",
-    "Langgraph",
+    "Java",
     "Linux",
     "Docker",
     "Kubernetes",
@@ -58,7 +53,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/itstheaj7",
+        url: "https://x.com/iamtsajeet",
         icon: Icons.x,
         navbar: true,
       },
@@ -155,6 +150,27 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Spring Boot Database Validator",
+      href: "https://github.com/thetsajeet/dbv-spring-boot-starter",
+      dates: "October 2024 - Present",
+      active: true,
+      description:
+        "Springboot DB validator that runs just after application context is initialized to catch any missing object in database.",
+      technologies: [
+        "Springboot",
+        "Maven",
+        "auto-starter"
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/thetsajeet/dbv-spring-boot-starter",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/dbv-spring-boot-starter.png",
+    },
     {
       title: "Form Factory",
       href: "https://form-factory-rosy.vercel.app/",
