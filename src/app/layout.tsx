@@ -47,6 +47,9 @@ export const metadata: Metadata = {
     google: "",
     yandex: "",
   },
+  icons: {
+    icon: "/Ajeet_TS_DP.png",
+  },
 };
 
 export default function RootLayout({
