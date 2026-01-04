@@ -8,8 +8,7 @@ export const DATA = {
   location: "Pune, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description: "Thinker | Tinkerer | Technologist",
-  summary:
-    "Experienced Software Engineer at Citi, specializing in full-stack development. Passionate about crafting innovative solutions and driving technological advancements. Committed to impactful contributions.",
+  summary: "Software engineer specialized in full-stack development.",
   avatarUrl: "/Ajeet_TS_DP.png",
   skills: [
     "Next",
@@ -139,7 +138,7 @@ export const DATA = {
     {
       school: "NIT Trichy",
       href: "https://www.nitt.edu/",
-      degree: "B.Tech Production Engineering",
+      degree: "B.Tech",
       logoUrl: "/nitt.png",
       start: "2019",
       end: "2023",

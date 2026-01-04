@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     yandex: "",
   },
   icons: {
-    icon: "/Ajeet_TS_DP.png",
+    icon: "/favicon.ico",
   },
 };
 
