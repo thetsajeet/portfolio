@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/pune",
   description: "Thinker | Tinkerer | Technologist",
   summary: "Software engineer specialized in full-stack development.",
-  avatarUrl: "/Ajeet_TS_DP.png",
+  avatarUrl: "/ajeet_profile.jpeg",
   skills: [
     "Next",
     "React",
