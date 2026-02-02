@@ -7,28 +7,32 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 
+import Preloader from "@/components/preloader";
+
 const BLUR_FADE_DELAY = 0.04;
+const DATA_DELAY_OFFSET = 2.4;
 
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+      <Preloader />
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1">
               <BlurFadeText
-                delay={BLUR_FADE_DELAY}
+                delay={BLUR_FADE_DELAY + DATA_DELAY_OFFSET}
                 className="text-2xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
                 text={`Hi, I'm ${DATA.name} 👋`}
               />
               <BlurFadeText
                 className="max-w-[600px] text-lg"
-                delay={BLUR_FADE_DELAY}
+                delay={BLUR_FADE_DELAY + DATA_DELAY_OFFSET}
                 text={DATA.description}
               />
             </div>
-            <BlurFade delay={BLUR_FADE_DELAY}>
+            <BlurFade delay={BLUR_FADE_DELAY + DATA_DELAY_OFFSET}>
               <Avatar className="size-28 border rounded-md">
                 <AvatarImage
                   alt={DATA.name}
@@ -46,11 +50,14 @@ export default function Page() {
       </section> */}
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+          <BlurFade delay={BLUR_FADE_DELAY * 5 + DATA_DELAY_OFFSET}>
             <h2 className="text-xl font-bold">WORK EXPERIENCE 💼</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
-            <BlurFade key={id} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
+            <BlurFade
+              key={id}
+              delay={BLUR_FADE_DELAY * 6 + id * 0.05 + DATA_DELAY_OFFSET}
+            >
               <ResumeCard
                 key={id}
                 logoUrl={work.logoUrl}
@@ -68,13 +75,13 @@ export default function Page() {
       </section>
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+          <BlurFade delay={BLUR_FADE_DELAY * 7 + DATA_DELAY_OFFSET}>
             <h2 className="text-xl font-bold">EDUCATION 🎓</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
               key={education.school}
-              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05 + DATA_DELAY_OFFSET}
             >
               <ResumeCard
                 key={education.school}
@@ -92,12 +99,15 @@ export default function Page() {
       </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+          <BlurFade delay={BLUR_FADE_DELAY * 9 + DATA_DELAY_OFFSET}>
             <h2 className="text-xl font-bold">SKILLS 🥷</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+              <BlurFade
+                key={skill}
+                delay={BLUR_FADE_DELAY * 10 + id * 0.05 + DATA_DELAY_OFFSET}
+              >
                 <Badge key={skill}>{skill}</Badge>
               </BlurFade>
             ))}
@@ -106,7 +116,7 @@ export default function Page() {
       </section>
       <section id="projects">
         <div className="space-y-12 w-full py-4">
-          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+          <BlurFade delay={BLUR_FADE_DELAY * 11 + DATA_DELAY_OFFSET}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Check out my latest work 🌏
@@ -121,7 +131,7 @@ export default function Page() {
             {DATA.projects.map((project, id) => (
               <BlurFade
                 key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05 + DATA_DELAY_OFFSET}
               >
                 <ProjectCard
                   href={project.href}
@@ -142,7 +152,7 @@ export default function Page() {
       </section>
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 16}>
+          <BlurFade delay={BLUR_FADE_DELAY * 16 + DATA_DELAY_OFFSET}>
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
                 Contact
