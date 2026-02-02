@@ -1,3 +1,4 @@
+import { LoadingProvider } from "@/components/loading-provider";
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import SnowfallBackground from "@/components/snowfall-background";
@@ -7,6 +8,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
+import NextTopLoader from "nextjs-toploader";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -62,14 +64,17 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased max-w-2xl mx-auto pt-6 pb-12 sm:pt-12 sm:pb-24 px-6",
-          fontSans.variable
+          fontSans.variable,
         )}
       >
+        <NextTopLoader color="#ffffff" />
         <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>
-            {children}
-            <Navbar />
-            <SnowfallBackground />
+            <LoadingProvider>
+              {children}
+              <Navbar />
+              <SnowfallBackground />
+            </LoadingProvider>
           </TooltipProvider>
         </ThemeProvider>
       </body>

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-export default function Preloader() {
+export default function Preloader({ onComplete }: { onComplete?: () => void }) {
   const [complete, setComplete] = useState(false);
   const [exit, setExit] = useState(false);
 
@@ -20,10 +20,13 @@ export default function Preloader() {
       // Remove component from DOM after exit animation (0.5s)
       const timer = setTimeout(() => {
         setComplete(true);
+        if (onComplete) {
+          onComplete();
+        }
       }, 500);
       return () => clearTimeout(timer);
     }
-  }, [exit]);
+  }, [exit, onComplete]);
 
   if (complete) return null;
 
